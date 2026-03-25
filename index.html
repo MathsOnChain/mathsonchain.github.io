@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pl" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>mathsonchain — Korepetycje z Matematyki, Statystyki i Finansów</title>
+    <meta name="description" content="Profesjonalne korepetycje i konsultacje online z matematyki, statystyki, rachunku prawdopodobieństwa, analizy matematycznej i przedmiotów finansowych. 20+ lat doświadczenia. Zajęcia przez Google Meet z nagraniem.">
+    <meta name="keywords" content="korepetycje matematyka, korepetycje statystyka, rachunek prawdopodobieństwa, analiza matematyczna, matematyka finansowa, konsultacje online, korepetytor, mathsonchain, Mariusz Garbaciak">
+    <meta name="author" content="Mariusz Garbaciak">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mathsonchain.github.io/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="mathsonchain — Korepetycje z Matematyki, Statystyki i Finansów">
+    <meta property="og:description" content="Profesjonalne korepetycje i konsultacje online z matematyki, statystyki, rachunku prawdopodobieństwa, analizy matematycznej i przedmiotów finansowych. 20+ lat doświadczenia.">
+    <meta property="og:url" content="https://mathsonchain.github.io/">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="mathsonchain">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="mathsonchain — Korepetycje z Matematyki i Finansów">
+    <meta name="twitter:description" content="Profesjonalne korepetycje online z matematyki, statystyki, analizy i finansów. 20+ lat doświadczenia.">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "mathsonchain — Mariusz Garbaciak",
+        "description": "Profesjonalne korepetycje i konsultacje online z matematyki, statystyki, rachunku prawdopodobieństwa, analizy matematycznej i przedmiotów finansowych.",
+        "url": "https://mathsonchain.github.io/",
+        "founder": {
+            "@type": "Person",
+            "name": "Mariusz Garbaciak"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "korepetycje.solidne@gmail.com",
+            "telephone": "+48794489452",
+            "contactType": "customer service",
+            "availableLanguage": "Polish"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Usługi edukacyjne",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Korepetycje z Matematyki",
+                        "description": "Szkoła średnia, matura, studia, konkursy matematyczne"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Rachunek Prawdopodobieństwa i Statystyka",
+                        "description": "Zmienne losowe, rozkłady, estymacja, testy hipotez, analiza danych"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Analiza Matematyczna",
+                        "description": "Analiza I i II, rachunek różniczkowy i całkowy, równania różniczkowe"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Przedmioty Finansowo-Ekonomiczne",
+                        "description": "Matematyka finansowa, wycena instrumentów, ekonometria, zarządzanie portfelem"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <!-- Preload Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to content (accessibility) -->
+    <a href="#main" class="skip-link">Przejdź do treści</a>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Nawigacja główna">
+            <a href="#hero" class="nav__logo" aria-label="Strona główna">
+                <img src="assets/logo.png" alt="mathsonchain logo" class="nav__logo-img">
+                <span class="nav__logo-text">mathsonchain</span>
+            </a>
+
+            <div class="nav__right">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Przełącz motyw jasny/ciemny" title="Zmień motyw">
+                    <i data-lucide="sun" class="theme-toggle__icon theme-toggle__icon--light"></i>
+                    <i data-lucide="moon" class="theme-toggle__icon theme-toggle__icon--dark"></i>
+                </button>
+
+                <button class="nav__toggle" id="nav-toggle" aria-label="Otwórz menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </div>
+
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li class="nav__item" role="none"><a href="#o-mnie" class="nav__link" role="menuitem">O mnie</a></li>
+                <li class="nav__item" role="none"><a href="#oferta" class="nav__link" role="menuitem">Oferta</a></li>
+                <li class="nav__item" role="none"><a href="#jak-pracuje" class="nav__link" role="menuitem">Jak pracuję</a></li>
+                <li class="nav__item" role="none"><a href="#cennik" class="nav__link" role="menuitem">Cennik</a></li>
+                <li class="nav__item" role="none"><a href="#kontakt" class="nav__link nav__link--cta" role="menuitem">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero__bg">
+                <div class="hero__grid"></div>
+                <div class="hero__glow hero__glow--1"></div>
+                <div class="hero__glow hero__glow--2"></div>
+            </div>
+            <div class="hero__content container">
+                <div class="hero__badge animate-on-scroll">
+                    <span class="hero__badge-dot"></span>
+                    Dostępny — umów się na konsultację
+                </div>
+                <h1 class="hero__title animate-on-scroll">
+                    Korepetycje z <span class="hero__title-gradient">matematyki</span>, statystyki i&nbsp;<span class="hero__title-gradient">finansów</span>
+                </h1>
+                <p class="hero__subtitle animate-on-scroll">
+                    Profesjonalne konsultacje online ze statystyki, rachunku prawdopodobieństwa, analizy matematycznej i&nbsp;przedmiotów finansowych. Tłumaczę jasno i&nbsp;zrozumiale — nawet dla humanistów.
+                </p>
+                <div class="hero__actions animate-on-scroll">
+                    <a href="#kontakt" class="btn btn--primary">
+                        <i data-lucide="message-circle"></i>
+                        Umów konsultację
+                    </a>
+                    <a href="#oferta" class="btn btn--secondary">
+                        <i data-lucide="book-open"></i>
+                        Zobacz ofertę
+                    </a>
+                </div>
+                <div class="hero__stats animate-on-scroll">
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">20+</span>
+                        <span class="hero__stat-label">lat doświadczenia</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">4</span>
+                        <span class="hero__stat-label">obszary specjalizacji</span>
+                    </div>
+                    <div class="hero__stat">
+                        <span class="hero__stat-number">100%</span>
+                        <span class="hero__stat-label">online</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="o-mnie">
+            <div class="container">
+                <div class="section__header animate-on-scroll">
+                    <span class="section__tag">O mnie</span>
+                    <h2 class="section__title">Dlaczego tyle osób mi zaufało?</h2>
+                </div>
+                <div class="about__grid">
+                    <div class="about__content animate-on-scroll">
+                        <p class="about__text">
+                            Nazywam się <strong>Mariusz Garbaciak</strong> i&nbsp;jestem matematykiem i&nbsp;finansistą z&nbsp;wykształcenia i&nbsp;zamiłowania. Ukończyłem kierunek <strong>Matematyka Finansowa</strong> na&nbsp;Politechnice Śląskiej w&nbsp;Gliwicach oraz <strong>Finanse i&nbsp;Rachunkowość</strong> na&nbsp;Uniwersytecie Ekonomicznym w&nbsp;Katowicach.
+                        </p>
+                        <p class="about__text">
+                            Od tego momentu świat matematyki i&nbsp;szeroko pojętych finansów stał się ważną częścią mojego życia, także zawodowego. Działalnością pedagogiczną z&nbsp;małymi przerwami zajmuję się już ponad <strong>20&nbsp;lat</strong>, ciągle doskonaląc swoje umiejętności m.in. przez uczestniczenie w&nbsp;konkursach na <strong>Kaggle</strong>, dzięki którym podnoszę swoje umiejętności programistyczne pracując na&nbsp;prawdziwych, często nieidealnych danych. Sprawdź mój profil na <a href="https://www.kaggle.com/mathsonchain" target="_blank" rel="noopener noreferrer" style="color: var(--primary); font-weight: 600; text-decoration: underline;">Kaggle</a>, jeśli chcesz zobaczyć, jak łączę matematykę, programowanie i&nbsp;praktyczne podejście do data science w&nbsp;realnych projektach. Znajdziesz tam moje notebooki, rozwiązania konkursowe i&nbsp;sposób myślenia przy budowie modeli.
+                        </p>
+                        <p class="about__text">
+                            Do każdego klienta podchodzę indywidualnie, dobierając odpowiednio tematykę i&nbsp;materiały. Tłumaczę w&nbsp;sposób jasny i&nbsp;zrozumiały, nawet dla tzw. humanistów. Posiadam wiele materiałów edukacyjnych. Zajęcia odbywają się w&nbsp;przyjaznej, bezstresowej atmosferze.
+                        </p>
+
+                    </div>
+                    <div class="about__visual animate-on-scroll">
+                        <div class="about__photo-wrap">
+                            <img src="assets/photo.png" alt="Mariusz Garbaciak — korepetytor matematyki i finansów" class="about__photo" width="400" height="400" loading="lazy">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services" id="oferta">
+            <div class="container">
+                <div class="section__header animate-on-scroll">
+                    <span class="section__tag">Oferta</span>
+                    <h2 class="section__title">Czego mogę Cię nauczyć?</h2>
+                    <p class="section__subtitle">Systematyczne korepetycje i&nbsp;doraźna pomoc — od szkoły średniej po zaawansowane zagadnienia.</p>
+                </div>
+                <div class="services__grid">
+                    <!-- Matematyka -->
+                    <article class="service-card animate-on-scroll" id="svc-matematyka">
+                        <div class="service-card__icon-wrap">
+                            <i data-lucide="sigma" class="service-card__icon"></i>
+                        </div>
+                        <h3 class="service-card__title">Matematyka</h3>
+                        <p class="service-card__desc">Systematyczne korepetycje i&nbsp;doraźna pomoc dla uczniów każdego poziomu.</p>
+                        <ul class="service-card__details">
+                            <li><i data-lucide="check-circle-2"></i> Szkoła średnia: nadrabianie zaległości, przygotowanie do sprawdzianów, tematy ponadprogramowe</li>
+                            <li><i data-lucide="check-circle-2"></i> Matura: przygotowanie do matury podstawowej i&nbsp;rozszerzonej</li>
+                            <li><i data-lucide="check-circle-2"></i> Studia: analiza matematyczna, rachunek prawdopodobieństwa i&nbsp;statystyka, różne zastosowania matematyki w&nbsp;finansach i&nbsp;ekonomii</li>
+                            <li><i data-lucide="check-circle-2"></i> Konkursy: przygotowanie do konkursów matematycznych</li>
+                        </ul>
+                    </article>
+
+                    <!-- Rachunek prawdopodobieństwa i statystyka -->
+                    <article class="service-card animate-on-scroll" id="svc-statystyka">
+                        <div class="service-card__icon-wrap">
+                            <i data-lucide="bar-chart-3" class="service-card__icon"></i>
+                        </div>
+                        <h3 class="service-card__title">Rachunek prawdopodobieństwa i&nbsp;statystyka</h3>
+                        <p class="service-card__desc">Kompleksowe wsparcie z&nbsp;zakresu teorii prawdopodobieństwa i&nbsp;statystyki matematycznej.</p>
+                        <ul class="service-card__details">
+                            <li><i data-lucide="check-circle-2"></i> Prawdopodobieństwo zdarzeń, zmienne losowe skokowe i&nbsp;ciągłe</li>
+                            <li><i data-lucide="check-circle-2"></i> Rozkłady: jednostajny, wykładniczy, normalny. CTG</li>
+                            <li><i data-lucide="check-circle-2"></i> Zmienne wielowymiarowe, kowariancja, korelacja</li>
+                            <li><i data-lucide="check-circle-2"></i> Procesy losowe, stacjonarność, ergodyczność</li>
+                            <li><i data-lucide="check-circle-2"></i> Estymacja, testy hipotez, regresja, ANOVA</li>
+                            <li><i data-lucide="check-circle-2"></i> Analiza danych, szeregi czasowe, redukcja wymiarowości</li>
+                        </ul>
+                    </article>
+
+                    <!-- Analiza Matematyczna -->
+                    <article class="service-card animate-on-scroll" id="svc-analiza">
+                        <div class="service-card__icon-wrap">
+                            <i data-lucide="function-square" class="service-card__icon"></i>
+                        </div>
+                        <h3 class="service-card__title">Analiza matematyczna</h3>
+                        <p class="service-card__desc">Kompleksowe wsparcie z&nbsp;zakresu analizy matematycznej - od granic po równania różniczkowe.</p>
+                        <ul class="service-card__details">
+                            <li><i data-lucide="check-circle-2"></i> Granice ciągów i&nbsp;funkcji - zachowanie obiektów przy zbliżaniu się do określonych wartości</li>
+                            <li><i data-lucide="check-circle-2"></i> Ciągłość funkcji i&nbsp;badanie zmian wartości przy zmianach argumentu</li>
+                            <li><i data-lucide="check-circle-2"></i> Pochodne - tempo zmian, monotoniczność, ekstrema funkcji</li>
+                            <li><i data-lucide="check-circle-2"></i> Całki nieoznaczone i&nbsp;oznaczone - pola, objętości, akumulacja wielkości</li>
+                            <li><i data-lucide="check-circle-2"></i> Szeregi liczbowe i&nbsp;funkcyjne - zbieżność, przybliżanie funkcji</li>
+                            <li><i data-lucide="check-circle-2"></i> Funkcje wielu zmiennych - pochodne cząstkowe, gradient, całki wielokrotne</li>
+                            <li><i data-lucide="check-circle-2"></i> Równania różniczkowe - zjawiska dynamiczne w&nbsp;matematyce i&nbsp;fizyce</li>
+                        </ul>
+                    </article>
+
+                    <!-- Przedmioty finansowe -->
+                    <article class="service-card service-card--featured animate-on-scroll" id="svc-finanse">
+                        <div class="service-card__icon-wrap">
+                            <i data-lucide="landmark" class="service-card__icon"></i>
+                        </div>
+                        <h3 class="service-card__title">Przedmioty finansowo - ekonomiczne</h3>
+                        <p class="service-card__desc">Systematyczne korepetycje i&nbsp;bieżąca pomoc z&nbsp;szerokiego zakresu finansów i&nbsp;ekonomii.</p>
+                        <ul class="service-card__details">
+                            <li><i data-lucide="check-circle-2"></i> Analiza finansowa i&nbsp;wycena akcji</li>
+                            <li><i data-lucide="check-circle-2"></i> Instrumenty dłużne i&nbsp;pochodne</li>
+                            <li><i data-lucide="check-circle-2"></i> Matematyka finansowa i&nbsp;ubezpieczeniowa</li>
+                            <li><i data-lucide="check-circle-2"></i> Mikro- i&nbsp;makroekonomia</li>
+                            <li><i data-lucide="check-circle-2"></i> Modelowanie ekonometryczne</li>
+                            <li><i data-lucide="check-circle-2"></i> Rachunkowość finansowa i&nbsp;zarządcza</li>
+                            <li><i data-lucide="check-circle-2"></i> Zarządzanie portfelem - strategie inwestycyjne</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- How I Work Section -->
+        <section class="section how-i-work" id="jak-pracuje">
+            <div class="container">
+                <div class="section__header animate-on-scroll">
+                    <span class="section__tag">Jak pracuję</span>
+                    <h2 class="section__title">Gdzie mnie znajdziesz?</h2>
+                    <p class="section__subtitle">Zajęcia prowadzę wyłącznie online — wygodnie, z&nbsp;dowolnego miejsca.</p>
+                </div>
+                <div class="how-i-work__grid">
+                    <div class="step-card animate-on-scroll">
+                        <span class="step-card__number">01</span>
+                        <div class="step-card__icon-wrap"><i data-lucide="message-circle"></i></div>
+                        <h3 class="step-card__title">Kontakt</h3>
+                        <p class="step-card__desc">Napisz do mnie — opowiedz o&nbsp;swoich potrzebach, przedmiocie i&nbsp;poziomie. Wspólnie ustalimy plan działania.</p>
+                    </div>
+                    <div class="step-card animate-on-scroll">
+                        <span class="step-card__number">02</span>
+                        <div class="step-card__icon-wrap"><i data-lucide="video"></i></div>
+                        <h3 class="step-card__title">Google Meet</h3>
+                        <p class="step-card__desc">Zajęcia odbywają się przez Google Meet z&nbsp;wykorzystaniem tablicy wirtualnej. Wszystko w&nbsp;czasie rzeczywistym.</p>
+                    </div>
+                    <div class="step-card animate-on-scroll">
+                        <span class="step-card__number">03</span>
+                        <div class="step-card__icon-wrap"><i data-lucide="play-circle"></i></div>
+                        <h3 class="step-card__title">Nagranie</h3>
+                        <p class="step-card__desc">Po każdej lekcji dostajesz pełne nagranie zajęć — możesz wrócić do materiału w&nbsp;dowolnym momencie.</p>
+                    </div>
+                    <div class="step-card animate-on-scroll">
+                        <span class="step-card__number">04</span>
+                        <div class="step-card__icon-wrap"><i data-lucide="rocket"></i></div>
+                        <h3 class="step-card__title">Wynik</h3>
+                        <p class="step-card__desc">Zdany egzamin, zrozumienie tematu i&nbsp;umiejętność samodzielnego rozwiązywania problemów.</p>
+                    </div>
+                </div>
+
+                <div class="how-i-work__features animate-on-scroll">
+                    <div class="feature-pill">
+                        <i data-lucide="monitor" class="feature-pill__icon"></i>
+                        Tylko online
+                    </div>
+                    <div class="feature-pill">
+                        <i data-lucide="video" class="feature-pill__icon"></i>
+                        Google Meet
+                    </div>
+                    <div class="feature-pill">
+                        <i data-lucide="pen-tool" class="feature-pill__icon"></i>
+                        Tablica wirtualna
+                    </div>
+                    <div class="feature-pill">
+                        <i data-lucide="download" class="feature-pill__icon"></i>
+                        Nagranie po lekcji
+                    </div>
+                    <div class="feature-pill">
+                        <i data-lucide="users" class="feature-pill__icon"></i>
+                        Indywidualnie
+                    </div>
+                    <div class="feature-pill">
+                        <i data-lucide="smile" class="feature-pill__icon"></i>
+                        Bezstresowa atmosfera
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="section pricing" id="cennik">
+            <div class="container">
+                <div class="section__header animate-on-scroll">
+                    <span class="section__tag">Cennik</span>
+                    <h2 class="section__title">Przejrzyste warunki</h2>
+                    <p class="section__subtitle">Prosta i&nbsp;uczciwa polityka cenowa.</p>
+                </div>
+                <div class="pricing__grid pricing__grid--two">
+                    <div class="pricing-card pricing-card--featured animate-on-scroll">
+                        <div class="pricing-card__badge">Zagadnienia z oferty</div>
+                        <div class="pricing-card__header">
+                            <h3 class="pricing-card__title">Korepetycje standardowe</h3>
+                            <p class="pricing-card__desc">Cena obowiązuje przy wyborze zagadnień z&nbsp;mojej oferty</p>
+                        </div>
+                        <div class="pricing-card__price">
+                            <span class="pricing-card__amount">100</span>
+                            <span class="pricing-card__currency">zł</span>
+                            <span class="pricing-card__period">/ 60 min</span>
+                        </div>
+                        <ul class="pricing-card__features">
+                            <li><i data-lucide="check"></i> Matematyka (szkoła średnia, matura, studia)</li>
+                            <li><i data-lucide="check"></i> Rachunek prawdopodobieństwa i statystyka</li>
+                            <li><i data-lucide="check"></i> Analiza matematyczna I i II</li>
+                            <li><i data-lucide="check"></i> Przedmioty finansowo-ekonomiczne</li>
+                            <li><i data-lucide="check"></i> Nagranie lekcji w cenie</li>
+                        </ul>
+                        <a href="#kontakt" class="btn btn--primary">Umów zajęcia</a>
+                    </div>
+
+                    <div class="pricing-card animate-on-scroll">
+                        <div class="pricing-card__header">
+                            <h3 class="pricing-card__title">Konsultacje indywidualne</h3>
+                            <p class="pricing-card__desc">Zagadnienia wykraczające poza standardową ofertę</p>
+                        </div>
+                        <div class="pricing-card__price">
+                            <span class="pricing-card__amount pricing-card__amount--custom">Cena</span>
+                            <span class="pricing-card__period">do uzgodnienia</span>
+                        </div>
+                        <ul class="pricing-card__features">
+                            <li><i data-lucide="check"></i> Skomplikowane zagadnienia specjalistyczne</li>
+                            <li><i data-lucide="check"></i> Tematy wykraczające poza ofertę</li>
+                            <li><i data-lucide="check"></i> Konsultacje projektowe i naukowe</li>
+                            <li><i data-lucide="check"></i> Cena zależy od poziomu skomplikowania</li>
+                            <li><i data-lucide="check"></i> Nagranie lekcji w cenie</li>
+                        </ul>
+                        <a href="#kontakt" class="btn btn--outline">Zapytaj o cenę</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="kontakt">
+            <div class="container">
+                <div class="section__header animate-on-scroll">
+                    <span class="section__tag">Kontakt</span>
+                    <h2 class="section__title">Porozmawiajmy o&nbsp;Twoich potrzebach</h2>
+                    <p class="section__subtitle">Napisz do mnie, a&nbsp;odpowiem w&nbsp;ciągu 24h. Pierwsza krótka rozmowa jest bezpłatna!</p>
+                </div>
+                <div class="contact__centered">
+                    <div class="contact__methods animate-on-scroll">
+                        <a href="mailto:korepetycje.solidne@gmail.com" class="contact-method" id="contact-email">
+                            <div class="contact-method__icon-wrap">
+                                <i data-lucide="mail" class="contact-method__icon"></i>
+                            </div>
+                            <div class="contact-method__info">
+                                <strong>E-mail</strong>
+                                <span>korepetycje.solidne@gmail.com</span>
+                            </div>
+                            <i data-lucide="arrow-right" class="contact-method__arrow"></i>
+                        </a>
+                        <a href="tel:+48794489452" class="contact-method" id="contact-phone">
+                            <div class="contact-method__icon-wrap">
+                                <i data-lucide="phone" class="contact-method__icon"></i>
+                            </div>
+                            <div class="contact-method__info">
+                                <strong>Telefon</strong>
+                                <span>+48 794 489 452</span>
+                            </div>
+                            <i data-lucide="arrow-right" class="contact-method__arrow"></i>
+                        </a>
+
+                        <a href="https://www.kaggle.com/mathsonchain" class="contact-method" id="contact-kaggle" target="_blank" rel="noopener noreferrer">
+                            <div class="contact-method__icon-wrap">
+                                <i data-lucide="code-2" class="contact-method__icon"></i>
+                            </div>
+                            <div class="contact-method__info">
+                                <strong>Kaggle</strong>
+                                <span>mathsonchain</span>
+                            </div>
+                            <i data-lucide="arrow-right" class="contact-method__arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#hero" class="nav__logo" aria-label="Strona główna">
+                        <img src="assets/logo.png" alt="mathsonchain logo" class="nav__logo-img">
+                        <span class="nav__logo-text">mathsonchain</span>
+                    </a>
+                    <p class="footer__desc">Profesjonalne korepetycje online z&nbsp;matematyki, statystyki i&nbsp;przedmiotów finansowych. Ponad 20 lat doświadczenia.</p>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Nawigacja</h4>
+                    <ul>
+                        <li><a href="#o-mnie">O mnie</a></li>
+                        <li><a href="#oferta">Oferta</a></li>
+                        <li><a href="#jak-pracuje">Jak pracuję</a></li>
+                        <li><a href="#cennik">Cennik</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Przedmioty</h4>
+                    <ul>
+                        <li><a href="#svc-matematyka">Matematyka</a></li>
+                        <li><a href="#svc-statystyka">Statystyka</a></li>
+                        <li><a href="#svc-analiza">Analiza mat.</a></li>
+                        <li><a href="#svc-finanse">Finanse</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Mariusz Garbaciak · mathsonchain. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
