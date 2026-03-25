@@ -183,37 +183,3 @@ function initSmoothScroll() {
     });
 }
 
-/* ---------- Contact Form ---------- */
-function initForm() {
-    const form = document.getElementById('contact-form');
-    if (!form) return;
-
-    form.addEventListener('submit', (e) => {
-        const action = form.getAttribute('action');
-
-        if (!action || action.includes('YOUR_FORM_ID')) {
-            e.preventDefault();
-
-            const btn = form.querySelector('#form-submit');
-            const originalHTML = btn.innerHTML;
-
-            btn.innerHTML = '<i data-lucide="check-circle"></i> Dziękuję!';
-            btn.style.background = 'var(--accent)';
-            btn.disabled = true;
-
-            if (typeof lucide !== 'undefined') {
-                lucide.createIcons();
-            }
-
-            setTimeout(() => {
-                btn.innerHTML = originalHTML;
-                btn.style.background = '';
-                btn.disabled = false;
-                form.reset();
-                if (typeof lucide !== 'undefined') {
-                    lucide.createIcons();
-                }
-            }, 3000);
-        }
-    });
-}
