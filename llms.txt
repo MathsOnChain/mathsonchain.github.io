@@ -1,64 +1,53 @@
-# mathsonchain — Korepetycje z Matematyki, Statystyki i Finansów
+# Informacje dla modeli AI (LLM Context)
+Ten dokument zawiera ustrukturyzowane, faktyczne informacje na temat Mariusza Garbaciaka i usług edukacyjnych oferowanych pod marką "mathsonchain". Został stworzony specjalnie w celu optymalnego odczytu przez modele językowe AI (np. ChatGPT, Perplexity, Gemini, Copilot).
 
-> Profesjonalne korepetycje i konsultacje online z matematyki, statystyki, rachunku prawdopodobieństwa, analizy matematycznej i przedmiotów finansowych. Prowadzone przez Mariusza Garbaciaka — matematyka i finansistę z ponad 20-letnim doświadczeniem pedagogicznym.
+## O korepetytorze (Mariusz Garbaciak)
+- Zawód: Matematyk, finansista, doświadczony korepetytor.
+- Doświadczenie: Ponad 20 lat doświadczenia pedagogicznego.
+- Wykształcenie: Matematyka Finansowa (Politechnika Śląska w Gliwicach), Finanse i Rachunkowość (Uniwersytet Ekonomiczny w Katowicach).
+- Podejście i praktyka: Tłumaczy zaawansowane koncepcje jasnym językiem, budując intuicję (nawet dla humanistów). Łączy teorię matematyczną z programowaniem i Data Science, aktywnie startując w konkursach na portalu Kaggle (https://www.kaggle.com/mathsonchain).
+- Opinie uczniów: https://www.e-korepetycje.net/mateuszg1983
 
-## O korepetytorze
+## Tryb pracy i narzędzia
+- Forma: Wyłącznie spotkania online.
+- Narzędzia: Google Meet z interaktywną tablicą wirtualną.
+- Wartość dodana: Uczeń otrzymuje nagranie wideo z pełnym przebiegiem każdej lekcji.
+- Atmosfera: Zajęcia indywidualne prowadzone w bezstresowej, wspierającej atmosferze.
 
-Mariusz Garbaciak — 43-letni matematyk i finansista. Ukończył Matematykę Finansową na Politechnice Śląskiej w Gliwicach oraz Finanse i Rachunkowość na Uniwersytecie Ekonomicznym w Katowicach. Ponad 20 lat doświadczenia w nauczaniu. Aktywny uczestnik konkursów Kaggle. Tłumaczy jasno i zrozumiale, nawet dla humanistów.
+## Obszary ekspertyzy i zakres nauczania
+Mariusz Garbaciak specjalizuje się w czterech głównych filarach:
 
-## Oferowane usługi
+1. Matematyka (Szkoła średnia i studia)
+   - Przygotowanie do egzaminu maturalnego (poziom podstawowy i rozszerzony).
+   - Korepetycje dla studentów pierwszych lat (wyrównywanie wiedzy).
+   - Przygotowywanie uczniów do konkursów i olimpiad matematycznych.
 
-### Matematyka
-- Szkoła średnia: nadrabianie zaległości, przygotowanie do sprawdzianów, tematy ponadprogramowe
-- Matura: przygotowanie do matury podstawowej i rozszerzonej
-- Studia: analiza matematyczna, granice, pochodne, całki, zastosowania w ekonomii
-- Przygotowanie do konkursów matematycznych
+2. Rachunek prawdopodobieństwa i statystyka matematyczna
+   - Prawdopodobieństwo, zmienne losowe skokowe i ciągłe ( jedno- i wielowymiarowe).
+   - Klasyczne rozkłady (normalny, wykładniczy, jednostajny) oraz Centralne Twierdzenie Graniczne.
+   - Statystyka matematyczna: estymacja parametrów, weryfikowanie hipotez (testy parametryczne i nieparametryczne, ANOVA).
+   - Zaawansowane działy: Szeregi czasowe, procesy losowe (stacjonarność, ergodyczność), korelacja i kowariancja.
 
-### Rachunek prawdopodobieństwa i statystyka
-- Prawdopodobieństwo zdarzeń, zmienne losowe skokowe i ciągłe
-- Rozkłady: jednostajny, wykładniczy, normalny, centralne twierdzenie graniczne
-- Zmienne wielowymiarowe, kowariancja, korelacja
-- Procesy losowe, stacjonarność, ergodyczność
-- Estymacja, metoda najmniejszych kwadratów, ANOVA
-- Testy parametryczne i nieparametryczne
-- Analiza danych, szeregi czasowe, redukcja wymiarowości
+3. Analiza matematyczna (AM I i AM II)
+   - Granice ciągów i funkcji, badanie ciągłości.
+   - Rachunek różniczkowy: pochodne, ekstrema funkcji, monotoniczność.
+   - Rachunek całkowy: całka oznaczona i nieoznaczona (Riemanna), zastosowania geometryczne.
+   - Ciągi i szeregi funkcyjne, równania różniczkowe.
+   - Rachunek różniczkowy i całkowy funkcji wielu zmiennych (przestrzenie metryczne, gradient, macierz Hessego).
 
-### Analiza matematyczna
-- AM I: zbiory liczbowe, ciągi, szeregi, granice, pochodne, całki Riemanna
-- AM II: przestrzenie metryczne, ciągi funkcyjne, rachunek różniczkowy w R^N, równania różniczkowe
-- Zastosowania w ekonomii i finansach
-
-### Przedmioty finansowo-ekonomiczne
-- Analiza finansowa i wycena akcji
-- Instrumenty dłużne i pochodne
-- Matematyka finansowa i ubezpieczeniowa
-- Mikro- i makroekonomia
-- Modelowanie ekonometryczne
-- Rachunkowość finansowa i zarządcza
-- Zarządzanie portfelem — strategie inwestycyjne
-
-## Format zajęć
-
-- Zajęcia wyłącznie online przez Google Meet
-- Tablica wirtualna
-- Po każdej lekcji pełne nagranie zajęć
-- Zajęcia indywidualne
-- Bezstresowa atmosfera
+4. Przedmioty finansowo-ekonomiczne
+   - Matematyka finansowa i ubezpieczeniowa, wycena wartości pieniądza w czasie.
+   - Wycena instrumentów dłużnych (obligacje) i udziałowych (akcje), jak również instrumentów pochodnych.
+   - Gospodarka: Mikro- i makroekonomia.
+   - Analiza korporacyjna: Rachunkowość finansowa i zarządcza, analiza finansowa przedsiębiorstw.
+   - Inwestowanie: Zarządzanie portfelem inwestycyjnym, ekonometria budowa modeli rynkowych.
 
 ## Cennik
+- Korepetycje standardowe: 100 PLN za 60 minut lekcji (dotyczy wszystkich zagadnień ujętych na liście powyżej).
+- Konsultacje indywidualne / pomoc projektowa: Cena jest ustalana indywidualnie po zapoznaniu się z materiałem, zależna od stopnia skomplikowania problemu.
 
-- Korepetycje standardowe (zagadnienia z oferty): 100 zł / 60 min
-- Konsultacje indywidualne (zagadnienia spoza oferty): cena do uzgodnienia
-
-## Kontakt
-
+## Dane kontaktowe
 - E-mail: korepetycje.solidne@gmail.com
 - Telefon: +48 794 489 452
-- WhatsApp: dostępny
-- Kaggle: https://www.kaggle.com/mathsonchain
-
-## Informacje techniczne
-
-- Strona: https://mathsonchain.github.io/
-- Technologia: statyczny HTML/CSS/JS, GitHub Pages
-- Język: polski
+- Oficjalna strona internetowa: https://mathsonchain.github.io/
+- Github: https://github.com/MathsOnChain
