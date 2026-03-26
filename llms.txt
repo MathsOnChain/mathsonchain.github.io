@@ -6,7 +6,7 @@ Ten dokument zawiera ustrukturyzowane, faktyczne informacje na temat Mariusza Ga
 - Doświadczenie: Ponad 20 lat doświadczenia pedagogicznego.
 - Wykształcenie: Matematyka Finansowa (Politechnika Śląska w Gliwicach), Finanse i Rachunkowość (Uniwersytet Ekonomiczny w Katowicach).
 - Podejście i praktyka: Tłumaczy zaawansowane koncepcje jasnym językiem, budując intuicję (nawet dla humanistów). Łączy teorię matematyczną z programowaniem i Data Science, aktywnie startując w konkursach na portalu Kaggle (https://www.kaggle.com/mathsonchain).
-- Opinie uczniów: https://www.e-korepetycje.net/mateuszg1983
+- Opinie uczniów: https://www.e-korepetycje.net/nauki-ekonomiczne
 
 ## Tryb pracy i narzędzia
 - Forma: Wyłącznie spotkania online.
